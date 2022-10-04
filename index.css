@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&family=Poppins&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 40%;
+    position:relative; 
+    top:8%;
+}
+img{
+    width: 350px;
+    height: 450px;
+    /* border-radius: 50%; */
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+    position:relative; 
+    top:20%;
+} 
+.box{
+    height: 5%;
+    width: 100%;
+    background-color: black;
+    color: black;
+}
+
+/* h3{
+    color: rgb(173, 29, 29);
+    text-align: center;
+    position:relative;
+    /* top:-51.1%;
+    left: 5%;
+}*/
+marquee {
+    border-style: solid none solid none;
+    border-width: 1px;
+    padding: 2px 0 2px 0;
+    border-color: #0C0A3E;
+    color: #0C0A3E;
+    background-color: #ffffff;
+   
+  }
+.tab {
+    display: inline-block;
+    margin-left: 25px;
+}
+.marquee{
+    position: relative;
+    top:-42%;
+}
+.home{
+    text-align: center;
+    position:relative;
+    top:-32%;
+    left: -5%;
+}
+.Resume{
+    text-align: center;
+    position:relative;
+    top:-38.3%;
+    left: 5%;
+}
+.Oresume{
+    text-align: center;
+    position:relative;
+    color: beige;
+    position:relative;
+    top:-35%;
+}
+.emphasized { 
+    font-style: italic; 
+}
+.Education{
+    position: relative;
+    left: 15%;
+    top: -30%;
+}
+.school{
+    font-size: xx-large;
+    font-style: italic;
+    position: relative;
+    left: 15%;
+    top: -31%;
+}
+.Experience{
+    font-size: xx-large;
+    font-style: italic;
+    position: relative;
+    left: 15%;
+    top: -27%;
+}
+.Snap{
+    position: relative;
+    left: 15%;
+    top: -25%;
+}
+.snap_description{
+    width: 30%;
+    position: relative;
+    left: 16%;
+    top: -23%;
+    font-size: smaller;
+}
+.Tech_prof{
+    font-size: xx-large;
+    font-style: italic;
+    position: relative;
+    left: 15%;
+    top: -18%;
+}
+.tech{
+    width: 30%;
+    position: relative;
+    left: 16%;
+    top: -17%;
+    font-size: smaller;
+}
+.Languages{
+    font-size: xx-large;
+    font-style: italic;
+    position: relative;
+    left: 15%;
+    top: -13%;
+}
+.Spanish{
+    width: 30%;
+    position: relative;
+    left: 16%;
+    top: -12%;
+    font-size: smaller;
+}
+
+
+
+.home_resume{
+    text-align: center;
+    position:relative;
+    top:-55px;
+    left: 5%;
+}
+/* .back{
+    position: relative;
+    left: 16%;
+    top: -12%;
+    width: 50px;
+    height: 50px;
+} */
+
+
+/**links**/
+ a:link {
+    color: rgb(138, 20, 20);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(8, 196, 243);
+    background-color: transparent;
+    text-decoration: underline;
+  }  
